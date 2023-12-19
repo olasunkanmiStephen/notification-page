@@ -60,11 +60,6 @@ body{
     cursor: pointer;
 }
 
-.text {
-    display: flex;
-    gap: 5px;
-}
-
 .text span{
     width: fit-content;
     text-wrap: nowrap;
@@ -83,4 +78,21 @@ body{
 
 #none.active{
     display: flex;
+}
+
+#notice{
+    background-color: bisque;
+    border-radius: 13px;
+    padding: 9px;
+}
+
+#notice::after{
+    content: '';
+    height: 8px;
+    width: 8px;
+    background-color: red;
+    border-radius: 100%;
+    position: relative;
+    top: -20%;
+    left: -2%;
 }
