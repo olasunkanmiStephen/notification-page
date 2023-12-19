@@ -51,6 +51,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: fit-content;
 }
 
 .notice {
@@ -91,6 +92,10 @@ body{
     padding: 9px;
     display: flex;
     justify-content: space-between;
+}
+
+#notice.click{
+    background-color: #fff;
 }
 
 #notice::after{
