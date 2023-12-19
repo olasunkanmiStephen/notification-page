@@ -66,6 +66,11 @@ body{
     font-size: 15px;
     font-weight: bold;
 }
+
+.text img{
+    display: flex;
+}
+
 .notice img{
     width: 40px;
 }
@@ -84,6 +89,8 @@ body{
     background-color: bisque;
     border-radius: 13px;
     padding: 9px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #notice::after{
@@ -94,5 +101,9 @@ body{
     border-radius: 100%;
     position: relative;
     top: -20%;
-    left: -2%;
+}
+
+.h{
+    display: flex;
+    gap: 7px;
 }
